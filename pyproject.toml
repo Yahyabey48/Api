@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tpfastapi"
+version = "0.1.0"
+description = ""
+authors = ["yahyabey48 <ahmed@yahyabey.fr"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.2"
+uvicorn = "^0.29.0"
+sqlmodel = "^0.0.16"
+python-dotenv = "^1.0.1"
+pymysql = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
