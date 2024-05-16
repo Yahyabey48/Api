@@ -1,8 +1,4 @@
-# tpFastApi
-
-## Deploy env
-
-Create a `.env` file in the root of the project with the following content:
+# API TP 
 
 ```shell
 MYSQL_ROOT_PASSWORD=root
@@ -12,7 +8,6 @@ MYSQL_PASSWORD=fastapi
 DB_URI=mysql+pymysql://fastapi:fastapi@mariadb:3306/fastapi
 ```
 
-## Run the project
 
 ```shell
 # start the project
